@@ -1,0 +1,25 @@
+@model IEnumerable<Proyecto>
+
+@if (Model is not null)
+{
+     <div class="container">
+        <div class="row row-cols-1 row-cols-md-2.5 g-2.5">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="@item.ImgrUrl" class="card-img-top" alt="imagenpProyecto">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@item.Titulo </h5>
+                            <p class="card-text">@item.Descripcion</p> 
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+            }
+        </div>
+
+    </div>
+}

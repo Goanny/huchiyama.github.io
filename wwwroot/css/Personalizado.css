@@ -1,0 +1,220 @@
+.fondo{
+     
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("fondo01.jpg"); /*colocando imagen y fondo oscuro*/
+    height: 60vh; /*Tama;o*/ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;/*se amplia automaticamente*/ 
+}
+.fondocurso
+{
+    background:  #e6e6e6;
+}
+
+/*oscureciendo foto del carrucel*/
+#carruImg02{
+    filter: brightness(90%);
+     
+}
+
+
+.img
+{ 
+    src: url("logo.png");
+}
+
+.fondooscuro{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+}
+
+#foto{
+    max-width: 200px;  
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%); /*centrando la imagen*/
+}
+
+#textH{
+    font-family: "Yellowtail";
+    color: #060606;
+    font-size: 1.5rem;
+    margin-top: 150px;
+}
+
+.conte{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    margin-top: -150px;
+}
+
+#texto{
+    color: #666;
+    font-weight: bold;
+}
+
+
+.contperfil{ 
+    width: auto;
+    height: 500px; 
+}
+
+.elipunto ul{
+    list-style: none; /*eliminando los puntos de las filas divididas en ul*/
+    padding-left: 0;/*Centrando todo el texto*/
+}
+
+.elipunto i{
+    color: #0d6efd; /*dandole color al icono*/
+    font-size: 50px; /*dandole tamano al icono*/
+}
+
+/*Seccion contacto*/
+.titulo-seccion{
+    color: #202020;
+    font-family: Yellowtail;
+    font-size: 1.5rem;
+} 
+.contacto{ 
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    color: #202020;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #202020; 
+}
+
+
+/*Titulo de span*/
+.heading{
+    text-align: center;
+    padding:1.5rem 0;
+  }
+  
+  .heading span{
+    font-size: 2.5rem;
+    background:rgba(25, 98, 233, 0.753);
+    color:rgb(241, 240, 240);
+    border-radius: .5rem;
+    padding:.1rem 1rem;
+  }
+  
+  .heading span.espacio{
+    background:none;
+  }
+
+  
+/*certificado*/
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+  }
+ 
+  .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+  .box-container .box img{
+    height: 25rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .box-container .box .content{
+    padding:2rem;
+  }
+  
+  .box-container .box .content h3{
+    font-size:2rem;
+    color:#333;
+  }
+  
+  .box-container .box .content h3 i{
+    color:orange;
+  }
+  
+  .box-container .box .content p{
+    font-size:1.7rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .box-container .box .content .stars i{
+    font-size:1.7rem;
+    color:orange;
+  } 
+  
+ 
+  /* Certificado */
+  .cuerpo
+  {
+margin: 0;/*segundo es el magin qu es un borde*/
+padding: 0;/*primero es el padding que es un borde*/
+box-sizing: border-box;
+  } 
+
+.imagen
+{
+    width: 100%;/* ancho*/
+}
+
+.fila
+{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;/*la imagen baja cada vez qye se encoge*/
+}
+
+.columna
+{
+    flex: 25%;
+    padding: 15px;
+    border: 5px solid white;   
+    border-radius: 25px;
+}
+
+@media(max-width: 800px)
+{
+    .columna{
+        flex: 100%; /*cuando la foto llega a 800px automaticamente se muestra dos columna*/
+    }
+}
+
+@media(max-width: 600px)
+{
+    .columna{
+        flex: 100%; /*cuando la foto llega a 600px automaticamente se muestra una columna*/
+    }
+}
+
+  /*efecto para resaltar un cuadro */
+  .servi  .box-container .box:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+
+

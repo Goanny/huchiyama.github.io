@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XF0hNcZuEGFdhFhY6kLyurVXerVH6566O843RnpbieXFi7OKZxmRJss5wuOFUvARvdXtLaKvk96swXtOXQ6k5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HUCHIYAMA\\Desktop\\CursoNetCore\\Cv\\Cv.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HUCHIYAMA\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\HUCHIYAMA\\.nuget\\packages\\sendgrid\\9.28.1\\sendgrid.9.28.1.nupkg.sha512",
+    "C:\\Users\\HUCHIYAMA\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
